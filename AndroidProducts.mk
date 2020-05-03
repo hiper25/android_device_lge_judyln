@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/aosp_judyln.mk
+    $(LOCAL_DIR)/arrow_judyln.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_judyln-userdebug \
-    aosp_judyln-eng
+    arrow_judyln-userdebug \
+    arrow_judyln-eng
