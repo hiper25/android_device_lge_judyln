@@ -54,4 +54,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=judyln_lao_com \
     PRIVATE_BUILD_DESC="judyln_lao_com-user 9 PKQ1.181105.001 193300114dd82 release-keys"
 
-vBUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys"
+BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys"
