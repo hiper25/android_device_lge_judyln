@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/rr_judyln.mk
+    $(LOCAL_DIR)/exthm_judyln.mk
 
 COMMON_LUNCH_CHOICES := \
-    rr_judyln-userdebug \
-    rr_judyln-eng
+    exthm_judyln-userdebug \
+    exthm_judyln-eng

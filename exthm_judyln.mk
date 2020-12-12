@@ -30,14 +30,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, device/lge/judyln/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/rr/config/common_full_phone.mk)
+$(call inherit-product, vendor/exthm/config/common_full_phone.mk)
 
 # Overlays (inherit after vendor/cm to ensure we override it)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Device identifiers
 
-PRODUCT_NAME := rr_judyln
+PRODUCT_NAME := exthm_judyln
 PRODUCT_DEVICE := judyln
 PRODUCT_BRAND := lge
 PRODUCT_MANUFACTURER := LGE
@@ -52,7 +52,6 @@ TARGET_VENDOR_DEVICE_NAME := judyln
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=judyln \
     PRODUCT_NAME=judyln_lao_com \
+    PRIVATE_BUILD_DESC="judyln_lao_com-user 9 PKQ1.181105.001 193300114dd82 release-keys"
 
-# RR-OS Stuff
-export TARGET_FACE_UNLOCK_SUPPORT := true
-export RR_BUILDTYPE := Official
+vBUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys"
